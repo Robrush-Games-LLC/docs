@@ -18,20 +18,90 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "Inizia qui",
+        "icon": "house",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Guide",
+        "icon": "book-open",
+        "pages": [
+          "guide/guida-rapida",
+          "guide/guida-completa"
+        ]
+      },
+      {
+        "group": "Impostazioni e account",
+        "icon": "gear",
+        "pages": [
+          "impostazioni/panoramica",
+          "impostazioni/username",
+          "impostazioni/email",
+          "impostazioni/lingua",
+          "impostazioni/paese",
+          "impostazioni/elimina-account",
+          "impostazioni/referral",
+          "impostazioni/redeem-code",
+          "impostazioni/redeem-history"
+        ]
+      },
+      {
+        "group": "Pagamenti e redeem",
+        "icon": "wallet",
+        "pages": [
+          "pagamenti/panoramica",
+          "pagamenti/in-sospeso",
+          "pagamenti/completato",
+          "pagamenti/robux-vs-gift-card",
+          "pagamenti/game-pass",
+          "pagamenti/tempi"
+        ]
+      },
+      {
+        "group": "Sponsor Video",
+        "icon": "video",
+        "pages": [
+          "sponsor-video"
+        ]
+      },
+      {
+        "group": "FAQ",
+        "icon": "circle-question",
+        "pages": [
+          "faq/panoramica",
+          "faq/dove-sono-robux",
+          "faq/pagamento-in-sospeso",
+          "faq/pagamento-completato",
+          "faq/coins-persi",
+          "faq/offerwall",
+          "faq/video-rifiutato",
+          "faq/views-no-reward",
+          "faq/account-non-trovato",
+          "faq/game-pass",
+          "faq/richiesta-rifiutata",
+          "faq/ads",
+          "faq/ban-voto",
+          "faq/ban-video",
+          "faq/redeem-robux",
+          "faq/come-fare-video",
+          "faq/vpn-abusi",
+          "faq/account-sbloccato",
+          "faq/cambio-country"
+        ]
+      },
+      {
+        "group": "Aiuto",
+        "icon": "life-ring",
+        "pages": [
+          "regole",
+          "supporto"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
